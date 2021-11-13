@@ -246,18 +246,42 @@ margin-top: 2rem;
 
 
     .product-cards--container{
+      
+        /*width: 90%;
         margin-top: 3rem;
+        min-width: 288px;
+        max-width: 400px;
         text-align: left;
         border-radius: 5px;
+        margin: 15px auto;
         display: inline-block;
-        width: 288px;
         height: 152px;
         background-color: var(--warm-black);
+        
+        width: 90%;
+        padding: 15px;
+        min-width: 288px;
+        max-width: 400px;
+        height: 150px;
+        margin: 15px auto;
+        background-color: var(--warm-black);
+        border-radius: 4px;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 16%);
+        */
+    }
+    .product-cards--container{
+       
     }
     .product-detail--card{
-        padding-top: 15px;
-        padding-left: 15px;
-        line-height: 18px;
+        width: 90%;
+        padding: 15px;
+        min-width: 288px;
+        max-width: 400px;
+        height: 150px;
+        margin: 15px auto;
+        background-color: var(--warm-black);
+        border-radius: 4px;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 16%);
     }
     .product-detail--card .clock-icon{
         margin-bottom: 0.6rem;
